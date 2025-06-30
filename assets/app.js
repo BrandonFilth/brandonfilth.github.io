@@ -29,7 +29,7 @@ class PortfolioApp {
       age: "23 years old",
       languages: "Spanish (native), English (intermediate)",
       location: "Guadalajara Jal. Mexico.",
-      status: "ACTIVE"
+      status: "OPEN"
     };
 
     // Education & Certifications
