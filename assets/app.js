@@ -99,24 +99,25 @@ class PortfolioApp {
     this.skills = {
       technical_skills: {
         operating_systems: ["Linux (Debian derivatives)", "Windows", "Android"],
-        tools: ["Postman (basic)", "AI tools", "Github", "Jira (Basic)", "SQL (Basic)"],
+        tools: ["Postman (basic)", "AI tools", "Github", "SQL (Basic)"],
         security: ["Bug hunting (UI/UX)"],
         blockchain: ["Web3 technologies", "Technical knowledge", "EVM", "Solana","Substrate"],
         networking: ["Basic networking knowledge"]
       },
       soft_skills: {
         learning: ["Fast learner", "Self-taught", "Problem-solving mindset"],
-        experience: ["5 years crypto and stocks trading"]
+        experience: ["5 years crypto and stocks trading"],
+        communication: ["Technical documentation", "Clear written communication", "Creating manuals for non-technical users"]
       },
       extra:{
         interests: ["DeFi", "GameFi","Automation", "AI applications"],
-        platforms_used: ["Replit", "Codespaces", "Notion", "Figma (basic)"],
-        current_learning: ["Solidity", "Cybersecurity fundamentals", "QA testing tools"]
+        platforms_used: ["Replit", "Codespaces", "Notion", "Jira (Basic)"],
+        current_learning: ["Solidity", "Cybersecurity fundamentals", "QA testing tools", ""]
       },
       certifications_pending: []
     };
 
-    // Social Networks - Add/remove/modify social links here
+    // Social Networks 
     this.socialNetworks = [
       {
         platform: "GitHub",
@@ -138,6 +139,13 @@ class PortfolioApp {
         color: "text-blue-500",
         url: "https://t.me/BrandonFilth",
         username: "BrandonFilth"
+      },
+      {
+        platform: "Email",
+        icon: "fas fa-envelope",
+        color: "text-gray-400",
+        url: "mailto:brandonfilth6@gmail.com",
+        username: "brandonfilth6@gmail.com"
       }
     ];
   }
@@ -340,7 +348,7 @@ class PortfolioApp {
     let content = `<span class="section">[SOCIAL_NETWORKS]</span>\n`;
 
     this.socialNetworks.forEach(social => {
-      content += `\n<i class="${social.icon} ${social.color} mr-2"></i> ${social.platform}: <a href="${social.url}" class="link" target="_blank" rel="noopener noreferrer">${social.url}</a>\n`;
+      content += `\n<i class="${social.icon} ${social.color} mr-2"></i> ${social.platform}: <a href="${social.url}" class="link" target="_blank" rel="noopener noreferrer">${social.username}</a>\n`;
     });
 
     return content;
