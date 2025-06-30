@@ -39,7 +39,7 @@ class PortfolioApp {
         focus: "Cybersecurity & Quality Assurance"
       },
       certifications: [
-        { name: "Web Programming", period: "01/2019 - 03/2020" },
+        { name: "Web Programming (UDG - Universidad de Guadalajara)", period: "01/2019 - 03/2020" },
         { name: "Get Connected (CISCO)", period: "10/2023" },
         { name: "Linux Unhatched (NDG)", period: "10/2023" },
         { name: "Introduction to Cybersecurity (CISCO)", period: "10/2023" }
