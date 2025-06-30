@@ -112,7 +112,7 @@ class PortfolioApp {
       extra:{
         interests: ["DeFi", "GameFi","Automation", "AI applications"],
         platforms_used: ["Replit", "Codespaces", "Notion", "Jira (Basic)"],
-        current_learning: ["Solidity", "Cybersecurity fundamentals", "QA testing tools", ""]
+        current_learning: ["Solidity", "Cybersecurity fundamentals", "QA testing tools"]
       },
       certifications_pending: []
     };
