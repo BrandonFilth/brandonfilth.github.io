@@ -77,8 +77,7 @@ class PortfolioApp {
         period: "09/2023 - Present",
         location: "Remote",
         activities: [
-          "Online events organization",
-          "Workshops and conferences",
+          "events participation ",
           "Community engagement"
         ]
       },
@@ -372,7 +371,7 @@ class PortfolioApp {
               BRANDON CORREA
             </h1>
             <p class="text-xl font-mono">
-              <span style="color: var(--content-blue)">passionate about: </span>
+              <span style="color: var(--content-blue)">Passionate About: </span>
               <span class="rotating-text"><span id="rotating-text"></span><span class="cursor"></span></span>
             </p>
           </div>
